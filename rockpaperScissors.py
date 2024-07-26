@@ -12,6 +12,7 @@ def selection_process():
     print(f"{computer_choice}:{player_choice}")
 
     time.sleep(15)#adds some time and suspence for the program to run 
+    #game logic
     if (computer_choice == player_choice):
         return "its a tie!... try again" 
     elif (computer_choice== "paper" and player_choice== "rock"):
